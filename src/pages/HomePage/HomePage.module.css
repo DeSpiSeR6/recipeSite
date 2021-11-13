@@ -10,7 +10,12 @@
     margin-right: 1420px;
 }
 
+.shopContainer {
+    display: grid;
+    min-width: 19px;
+    min-height: 1080px;
 
+}
 .shopPage {
     display: grid;
     background-image: url(../media/Fire1.png);
