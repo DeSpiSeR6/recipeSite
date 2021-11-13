@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navigation {
+    
+    min-width: 2px;
+    height: 100px;
+    background-color: rgb(64, 202, 0);
+}
+.cookie {
+    margin-top: -80px;
+    width: 90px;
+    margin-right: 1650px;
+}
+h1 {
+    color: white;
+    padding-top: 20px;
+}
+.recept {
+    color: black;
+}
+span {
+    color: brown;
+}
+.inside {
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(223, 147, 86);
+    width: 1500px;
+}
+.backGround {
+min-width: 500px;
+min-height: 1000px;
+background-color: rgb(194, 192, 190);
+}

@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cookie {
+    margin-top: -100px;
+    width: 80px;
+    margin-right: 1420px;
+}
+
+.shopContainer {
+    display: grid;
+    min-width: 19px;
+    min-height: 1080px;
+
+}
+.shopPage {
+    display: grid;
+    background-image: url(../media/Fire1.png);
+   -moz-background-clip: padding;
+   
+   min-height: 1080px;
+}
+.logo {
+    color: white;    
+}
+ul {    
+    margin-left: 650px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    font-size: 30px;
+}
+li {
+    padding-left: 20px;
+}
+.navigation {
+    min-width: 2px;
+    height: 80px;
+
+}
+
+/* 
+@media screen and (max-width: 992px) {
+    .navigation {
+        background-color: blue;
+    }
+} */
+
+.siteBody {
+    display: grid;
+    padding-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../media/bgbg.jpg);
+    width: 1500px;
+    min-height: 900px;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 50px 50px;
+}
+
+.CardItem {
+   
+    display: grid;
+    width: 500px;
+    height: 350px;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 50px 50px;
+}
+
+.CardBody {
+    background-color: rgb(117, 31, 0);
+    color: white;
+    height: 120px;
+    outline: none;
+    border: none;
+}
+
+.button {
+    border: none;
+    outline: none;
+    color: #000;
+}
+
+.button:hover {
+    transform: scale(1.001);
+}
+
+.button:active {
+    transform: rotate(2deg);
+    background-color: rgb(156, 21, 21);
+}
+
+.links {
+    color: rgb(69, 69, 69);
+    text-decoration: none;
+}
+
+.links:hover {
+    color: #000;
+}
+.footer {
+  text-align: center;
+  background-image: rgb(134, 134, 134);
+    color: rgb(255, 0, 0);
+  
+}
+.bgbg {
+
+}
+.left{    
+    position: absolute;
+    margin-top: 129px;
+background-image: url(../media/Fire1.png);
+width: 202px;
+min-height: 951px;
+}
+.right{    
+    position: absolute;
+    margin-top: 129px;
+    margin-left: 1700px;
+    background-image: url(../media/Fire1.png);
+width: 202px;
+min-height: 951px;
+}
