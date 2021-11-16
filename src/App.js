@@ -4,6 +4,7 @@ import { Switch, Route } from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Footer from './components/Footer/Footer';
+import about from './pages/AboutMe/AboutMe'
 
 function App() {
 
@@ -11,7 +12,7 @@ function App() {
     <div className="App">
       <Switch>
         <Route exact path="/" component={HomePage} />
-        {/* <Route exact path="/recipe/:id" component={ri1} /> */}
+        <Route exact path="/About" component={about} />
       </Switch>
     </div>
   );

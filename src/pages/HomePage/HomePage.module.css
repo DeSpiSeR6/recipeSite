@@ -27,7 +27,7 @@
     color: white;    
 }
 ul {    
-    margin-left: 650px;
+    margin-left: 400px;
     padding-top: 20px;
     display: flex;
     flex-direction: row;
@@ -76,7 +76,7 @@ li {
 }
 
 .CardBody {
-    background-color: rgb(117, 31, 0);
+    background-color: rgb(54, 51, 49);
     color: white;
     height: 120px;
     outline: none;
@@ -129,4 +129,33 @@ min-height: 951px;
     background-image: url(../media/Fire1.png);
 width: 202px;
 min-height: 951px;
+}
+.modalImg{
+align-items: center;
+}
+.modalBody {
+    background-color: rgb(136, 131, 131);
+}
+.modalHeader {
+    color: rgb(180, 180, 180);
+    background-color: rgb(59, 59, 59);
+}
+.modalFooter {
+    background-color: rgb(59, 59, 59);
+}
+.modalRecipe {
+    font-size: 17px;
+}
+.links {
+    color: white;
+    text-decoration: none;
+}
+.links:hover {
+    color: rgb(218, 214, 214);
+    text-decoration: none;
+}
+.spann {
+    margin-top: -7px;
+    font-size: 36px;
+    color: yellow;
 }

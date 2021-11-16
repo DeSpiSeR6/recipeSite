@@ -1,0 +1,18 @@
+.Body {
+    background-image: url(../media/bgbg.jpg);
+    min-height:969px;
+}
+.aboutHeader {
+    padding-top: 200px;
+    display: flex;
+    justify-content: center;
+    color: rgb(241, 241, 241);
+    font-size: 76px;
+}
+.about {
+    margin-top: 300px;
+    display: flex;
+    justify-content: center;
+    color: rgb(241, 241, 241);
+    font-size: 56px;
+}
