@@ -1,8 +1,10 @@
 import { Modal, Button, Image } from 'react-bootstrap'
 import React from 'react'
 import styles from '../../pages/HomePage/HomePage.module.css'
-
 const RecipeModal = (props) => {
+  const handleNoImage = (e) => {
+    e.target.src = "https://media.moddb.com/images/articles/1/73/72743/image_error_full.png"
+  }
   return (
     <Modal
       {...props}
@@ -16,7 +18,7 @@ const RecipeModal = (props) => {
         </Modal.Title>
       </Modal.Header>
       <Modal.Body className={styles.modalBody}>
-        <Image src={props.recipe.imageURL} fluid rounded alt='Изображение не найдено' className={styles.modalImg} />
+        <Image src={props.recipe.imageURL} fluid rounded alt='Изображение не найдено' onError={handleNoImage} className={styles.modalImg} />
         <ol className={styles.modalRecipe}>
           {props.recipe.ingredients.map(ingredient => {
             return (<li>{ingredient.name} <br /> {ingredient.quantity} pieces <br /> Type - {ingredient.type}</li>);

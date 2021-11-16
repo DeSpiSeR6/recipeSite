@@ -22,7 +22,7 @@ const RecipeList = ({ recipeList, styles }) => {
           :
           recipeList.map((recipe) => {
             return (
-              <RecipeItem recipe={recipe} styles={styles} onClickHandler={() => clickHandler(recipe)} />
+              <RecipeItem key={recipe.name} recipe={recipe} styles={styles} onClickHandler={() => clickHandler(recipe)} />
             );
           })
       }
